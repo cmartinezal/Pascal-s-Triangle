@@ -4,12 +4,12 @@ In mathematics, Pascal's triangle is a triangular array of the binomial coeffici
 
 ![ Pascal's triangle](./PascalTriangleAnimated.gif "Pascal's triangle")
 
-The triangular array of numbers begins with 1 on the top and with 1's running down the two sides of a triangle. Each new number lies between two numbers and below them, and its value is the sum of the two numbers above it. /
+The triangular array of numbers begins with 1 on the top and with 1's running down the two sides of a triangle. Each new number lies between two numbers and below them, and its value is the sum of the two numbers above it.\
 This triangle is used in different types of probability conditions.
 
 ## Example with 11 rows
 
-![ Pascal's triangle with 11 rows](./PTriangle.gif "Pascal's triangle with  11 rows")
+![ Pascal's triangle with 11 rows](./PTriangle11rows.webp "Pascal's triangle with  11 rows")
 
 ## About The Project
 
@@ -17,7 +17,8 @@ This project creates a function in python to generate Pascal's triangle with n r
 
 ## Getting Started
 
-Let's start to use this project.
+Let's start to use this project.\
+There is a python file with the code and a Jupyter Notebook to visualize the code execution in directly your browser.
 
 ### Prerequisites
 
@@ -31,4 +32,4 @@ To execute the project open the terminal and go to the project folder. Then exec
 python3 pascals_triangle.py
 ```
 
-You can Also use Jupyter Notebook to execute it in your browser or text editor directly.
+You can also use Jupyter Notebook to execute it in your browser or text editor directly.
