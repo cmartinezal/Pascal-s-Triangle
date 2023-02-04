@@ -6,12 +6,9 @@ class PascalTriangle:
         pascal_triangle = []
         
         if num_rows < 1:
-            return  pascal_triangle
+            return pascal_triangle
     
         pascal_triangle.append([1])
-
-        if num_rows == 1:
-            return pascal_triangle[num_rows - 1]
 
         for row_num in range(2, num_rows + 1):
             prev_row = pascal_triangle[row_num - 2]
@@ -20,7 +17,7 @@ class PascalTriangle:
 
             for i in range(last_index):
                 new_row.append(prev_row[i] + prev_row[i + 1])
-                
+
             new_row.append(prev_row[last_index])
             pascal_triangle.append(new_row)
 
