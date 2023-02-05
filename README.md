@@ -18,11 +18,11 @@ This project creates a function in python to generate Pascal's triangle with n r
 ## Getting Started
 
 Let's start to use this project.\
-There is a python file with the code and a Jupyter Notebook to visualize the code execution in directly your browser.
+There is a python file with the code and a Jupyter Notebook to visualize the code execution in your browser.
 
 ### Prerequisites
 
-Python must be installed.
+Python 3 must be installed.
 
 ### Installation
 
