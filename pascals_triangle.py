@@ -23,7 +23,7 @@ class PascalTriangle:
 
         return pascal_triangle
 
-    def print_PascalTriangle(self, num_rows):
+    def print_rows(self, num_rows):
         print(f'Input: num_rows = {num_rows}')
         pascal_triangle = self.generate_rows(num_rows)
         print(f'Output: {pascal_triangle}')
@@ -31,4 +31,4 @@ class PascalTriangle:
 # Tests
 pascal_triangle = PascalTriangle()
 for num_rows in range(12):
-    pascal_triangle.print_PascalTriangle(num_rows)
+    pascal_triangle.print_rows(num_rows)
