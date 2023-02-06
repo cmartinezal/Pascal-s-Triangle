@@ -10,11 +10,9 @@ class PascalTriangle:
 
         return [1] + [prev_row[i] + prev_row[i + 1] for i in range(0, len(prev_row) -  1) if rowIndex > 1] + [1]
 
-    def generate_pascal_triangle(self, num_rows: int=0) -> List[List[int]]:
+    def generate_pascal_triangle(self, num_rows: int) -> List[List[int]]:
         pascal_triangle = []
-
-        if num_rows > 0:
-            pascal_triangle += [self.generate_row(i) for i in range(num_rows)]
+        pascal_triangle += [self.generate_row(i) for i in range(num_rows)]
         
         return pascal_triangle
 
