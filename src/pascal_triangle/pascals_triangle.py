@@ -15,9 +15,3 @@ class PascalTriangle:
         pascal_triangle += [self.generate_row(i) for i in range(num_rows)]
         
         return pascal_triangle
-
-# Tests
-pascal_triangle = PascalTriangle()
-for num_rows in range(12):
-    print(f'Input: num_rows = {num_rows}')
-    print(f'Output: {pascal_triangle.generate_pascal_triangle(num_rows)}')
